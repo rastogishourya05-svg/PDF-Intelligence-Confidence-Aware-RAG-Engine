@@ -1,0 +1,33 @@
+# ── Core LangChain ──
+langchain==0.3.14
+langchain-core==0.3.29
+langchain-community==0.3.14
+langchain-groq==0.2.1
+
+# ── Vector Store ──
+faiss-cpu==1.8.0
+
+# ── Embeddings (local, no API key needed) ──
+sentence-transformers==3.3.1
+
+# ── PDF Handling ──
+pypdf==4.3.1
+
+# ── LLM Provider ──
+groq==0.13.0
+
+# ── Web Interface ──
+streamlit==1.32.0
+
+# ── Core Utilities ──
+python-dotenv==1.0.1
+pydantic>=2.0.0,<3.0.0
+requests==2.32.3
+
+# ── Async support ──
+aiohttp>=3.9.0
+
+# ── ML / Numerical ──
+numpy>=1.24.0,<2.0.0
+torch>=2.0.0          # Required by sentence-transformers (CPU build is fine)
+transformers>=4.36.0  # Required by sentence-transformers
